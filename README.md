@@ -16,6 +16,6 @@ Lexical Diversity (unique words, Automated Readability Index (ARI), Average Word
 
 Find sentiment scores (positive, negative, neutral, and compound) using Vader.sentiment library in NLTK. This was the most challenging since vader is used primarily for analyzing sentiment of social media text, a.k.a line by line. Courtesy of the good people of stackoverflow, I was able to figure out a way to seperate the text by characters into different list, join and convert them into string into one list, and then run vader sentiment to get an overall sentiment score. Thankfully, after many trial and error, it worked! 
 
-Side note: This could be done sentence by sentence, but the sentiment score is not accurate since each book gets longer and longer with more sentences. Essentially, the sentiment gets higher scores (positive and negative) the series progresses, which turns out is not necessarily the case.
+Side note: This could be done sentence by sentence, but the sentiment score is not accurate since each book gets longer and longer with more sentences. Essentially, the sentiment gets higher scores (positive and negative) as the series progresses, which is not the case.
 
 Tableau Public for Corresponding Visualizations: https://public.tableau.com/profile/chantel.diaz#!/
